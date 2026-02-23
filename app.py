@@ -21,7 +21,7 @@ if opcion=="HOME":
 
 # Ejecución de la opción "Ejercicio 1"
 if opcion=="EJERCICIO 1":
-    st.title("**VARIABLES Y CONDICIONALES**")
+    st.title(" 📊 VARIABLES Y CONDICIONALES")
     p=st.number_input("Ingrese el presupuesto")
     g=st.number_input("Ingrese el gasto")
     if st.button("EVALUAR"):
@@ -90,7 +90,7 @@ if opcion == "EJERCICIO 2":
 
    
 if opcion == "EJERCICIO 3":
-    st.title("🎯 FUNCIONES Y PROGRAMACIÓN FUNCIONAL")
+    st.title("📊 FUNCIONES Y PROGRAMACIÓN FUNCIONAL")
 
     if "actividades" in st.session_state and st.session_state.actividades:
         st.write("### Datos base")
@@ -125,7 +125,7 @@ if opcion == "EJERCICIO 3":
 
 
 if opcion=="EJERCICIO 4":
-    st.title("PROGRAMACIÓN ORIENTADA A OBJETOS(POO)")
+    st.title(" 📊 PROGRAMACIÓN ORIENTADA A OBJETOS(POO)")
     # Definicón de la calse actitividad
     class Actividad:
         def __init__(self,nombre,tipo,presupuesto,gasto_real):
@@ -169,5 +169,7 @@ if opcion=="EJERCICIO 4":
 
 
 if opcion=="RESEÑA":
-    st.title("RESEÑA")
-    st.write("A continuación la reseña")
+    st.title(" 🎯 RESEÑA")
+    st.write("Este pequeño programa es la evaluación N° 01 de mi persona que es la primera vez que trabajo con Python")
+    st.write("Derechos reservados")
+ 
